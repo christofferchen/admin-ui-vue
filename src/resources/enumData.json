@@ -1,0 +1,614 @@
+﻿{
+  "CrossOrderTransferType": {
+    "Allin": {
+      "text": "通联",
+      "value": 0
+    },
+    "PYJF": {
+      "text": "易极付",
+      "value": 1
+    }
+  },
+  "RemitOrderStatus": {
+    "Paymenting": {
+      "text": "付款中",
+      "value": 0
+    },
+    "PaymentSucceed": {
+      "text": "付款成功",
+      "value": 1
+    },
+    "Audit": {
+      "text": "同步审核中",
+      "value": 2
+    },
+    "AuditFail": {
+      "text": "同步审核失败",
+      "value": 3
+    },
+    "PaymentError": {
+      "text": "付款失败",
+      "value": 4
+    },
+    "Unconfirmed": {
+      "text": "待确认",
+      "value": 5
+    },
+    "Ccancel": {
+      "text": "已取消",
+      "value": -1
+    }
+  },
+  "SynchronousStatus": {
+    "NotSync": {
+      "text": "未同步",
+      "value": 0
+    },
+    "SyncSucceed": {
+      "text": "同步成功",
+      "value": 1
+    },
+    "RemitSucceed": {
+      "text": "汇款成功",
+      "value": 2
+    },
+    "Syncing": {
+      "text": "同步中",
+      "value": 100
+    },
+    "Remiting": {
+      "text": "汇款中",
+      "value": 200
+    }
+  },
+  "DeclareResultStatus": {
+    "WaitingDeclare": {
+      "text": "待申报",
+      "value": 0
+    },
+    "WaitingReceipt": {
+      "text": "未收到回执",
+      "value": 1
+    },
+    "Receipted": {
+      "text": "已收到回执",
+      "value": 2
+    },
+    "DeclareSuccess": {
+      "text": "申报成功",
+      "value": 3
+    },
+    "DeclareError": {
+      "text": "申报失败",
+      "value": 4
+    },
+    "Declareing": {
+      "text": "申报中",
+      "value": 5
+    }
+  },
+  "DeclareType": {
+    "Payment": {
+      "text": "支付单",
+      "value": 0
+    },
+    "Orders": {
+      "text": "订单",
+      "value": 1
+    },
+    "Waybill": {
+      "text": "运单",
+      "value": 2
+    },
+    "Inventory": {
+      "text": "清单",
+      "value": 3
+    }
+  },
+  "InstitutionType": {
+    "Ciq": {
+      "text": "国检",
+      "value": 0
+    },
+    "Ceb": {
+      "text": "海关",
+      "value": 1
+    }
+  },
+  "OrderBondedType": {
+    "FreeTradeBonded": {
+      "text": "自贸保税",
+      "value": 1
+    },
+    "OverseasDirectMail": {
+      "text": "海外直邮",
+      "value": 3
+    }
+  },
+  "OrderDeclareStatus": {
+    "PaymentWaitDeclare": {
+      "text": "支付单待申报",
+      "value": 0
+    },
+    "PaymentDeclareing": {
+      "text": "支付单申报中",
+      "value": 1
+    },
+    "PaymentDeclareErr": {
+      "text": "支付单申报失败",
+      "value": 3
+    },
+    "OrderWaitDeclare": {
+      "text": "订单待申报",
+      "value": 4
+    },
+    "OrderDeclareing": {
+      "text": "订单申报中",
+      "value": 5
+    },
+    "OrderDeclareErr": {
+      "text": "订单申报失败",
+      "value": 7
+    },
+    "WaybillWaitDeclare": {
+      "text": "运单待申报",
+      "value": 8
+    },
+    "WaybillDeclareing": {
+      "text": "运单申报中",
+      "value": 9
+    },
+    "WaybillDeclareErr": {
+      "text": "运单申报失败",
+      "value": 11
+    },
+    "InventoryWaitDeclare": {
+      "text": "清单待申报",
+      "value": 12
+    },
+    "InventoryDeclareing": {
+      "text": "清单申报中",
+      "value": 13
+    },
+    "InventoryDeclareErr": {
+      "text": "清单申报失败",
+      "value": 15
+    },
+    "Succeed": {
+      "text": "放行",
+      "value": 16
+    },
+    "Canceling": {
+      "text": "申请取消中",
+      "value": 18
+    },
+    "Waiting": {
+      "text": "等待",
+      "value": 19
+    },
+    "Complete": {
+      "text": "完成",
+      "value": 20
+    },
+    "Cancel": {
+      "text": "已取消",
+      "value": -1
+    }
+  },
+  "PaymentOrderDeclareStatus": {
+    "WaitDeclare": {
+      "text": "待申报",
+      "value": 0
+    },
+    "Paying": {
+      "text": "支付中",
+      "value": 1
+    },
+    "Declaring": {
+      "text": "申报中",
+      "value": 2
+    },
+    "Success": {
+      "text": "申报成功",
+      "value": 3
+    },
+    "Fail": {
+      "text": "申报失败",
+      "value": 4
+    }
+  },
+  "OrderDeclareRefundStatus": {
+    "Succeed": {
+      "text": "退款成功",
+      "value": 1
+    },
+    "Fail": {
+      "text": "退款失败",
+      "value": 2
+    }
+  },
+  "PayType": {
+    "OTHER": {
+      "text": "其他",
+      "value": 0
+    },
+    "PYJF": {
+      "text": "易极付",
+      "value": 1
+    },
+    "PTL": {
+      "text": "通联",
+      "value": 2
+    }
+  },
+  "PaymentMode": {
+    "AllinGatewayDeclare": {
+      "text": "通联-网关报关",
+      "value": 0
+    },
+    "AllinVirtualCard": {
+      "text": "通联-虚拟卡",
+      "value": 1
+    },
+    "AllinDeclare": {
+      "text": "通联-独立报关",
+      "value": 2
+    },
+    "YiJiFu_Pay": {
+      "text": "易极付-支付",
+      "value": 3
+    },
+    "YiJiFu_Declare": {
+      "text": "易极付-报关",
+      "value": 4
+    },
+    "YiJiFu_Remit": {
+      "text": "易极付-跨境汇款",
+      "value": 5
+    }
+  },
+  "AccountType": {
+    "Balance": {
+      "text": "余额账户",
+      "value": 0
+    },
+    "Freeze": {
+      "text": "冻结账户",
+      "value": 1
+    }
+  },
+  "AllinpayMemberMoneyIOType": {
+    "Recharge": {
+      "text": "充值",
+      "value": 0
+    },
+    "Refund": {
+      "text": "退款",
+      "value": 1
+    },
+    "Pay": {
+      "text": "报关消费",
+      "value": 2
+    }
+  },
+  "CallbackType": {
+    "PushOrder": {
+      "text": "推单回调",
+      "value": 0
+    },
+    "Logistics": {
+      "text": "物流状态回调",
+      "value": 2
+    }
+  },
+  "GradeFeeConfigType": {
+    "FixedValue": {
+      "text": "固定值",
+      "value": 0
+    },
+    "Ratio": {
+      "text": "比例",
+      "value": 1
+    }
+  },
+  "InterfaceStatus": {
+    "WaitOpen": {
+      "text": "未开通",
+      "value": 0
+    },
+    "Valid": {
+      "text": "启用",
+      "value": 1
+    },
+    "InValid": {
+      "text": "禁用",
+      "value": 2
+    }
+  },
+  "InterfaceType": {
+    "PushOrder": {
+      "text": "推单",
+      "value": 0
+    },
+    "IdCardIdentify": {
+      "text": "实名认证",
+      "value": 1
+    },
+    "PaymentDeclare": {
+      "text": "支付单申报",
+      "value": 2
+    },
+    "OrderDeclare": {
+      "text": "订单申报",
+      "value": 3
+    },
+    "WaybillDeclare": {
+      "text": "运单申报",
+      "value": 4
+    },
+    "InventoryDeclare": {
+      "text": "清单申报",
+      "value": 5
+    }
+  },
+  "MerchantMoneyIOType": {
+    "Recharge": {
+      "text": "充值",
+      "value": 0
+    },
+    "Consumption": {
+      "text": "消费",
+      "value": 2
+    }
+  },
+  "MerchantRecordStatus": {
+    "Add": {
+      "text": "新增",
+      "value": 0
+    },
+    "Modify": {
+      "text": "变更",
+      "value": 1
+    },
+    "Fail": {
+      "text": "失败",
+      "value": 2
+    },
+    "Success": {
+      "text": "成功",
+      "value": 3
+    }
+  },
+  "MerchantStatus": {
+    "Valid": {
+      "text": "启用",
+      "value": 0
+    },
+    "InValid": {
+      "text": "禁用",
+      "value": 1
+    }
+  },
+  "MerchantVerifyStatus": {
+    "WaitVerify": {
+      "text": "待审核",
+      "value": 0
+    },
+    "Verified": {
+      "text": "已审核",
+      "value": 1
+    },
+    "Fail": {
+      "text": "审核失败",
+      "value": 2
+    }
+  },
+  "MerchantType": {
+    "Store": {
+      "text": "电商商户",
+      "value": 0
+    },
+    "Customs": {
+      "text": "通关商户",
+      "value": 1
+    }
+  },
+  "QuarantineBasicDataType": {
+    "Container": {
+      "text": "集装箱",
+      "value": 1
+    },
+    "AccompanyDoc_Leave": {
+      "text": "随附单据—出境",
+      "value": 2
+    },
+    "RequiredDoc": {
+      "text": "所需单证",
+      "value": 3
+    },
+    "AccompanyDoc_Into": {
+      "text": "随附单据—入境",
+      "value": 4
+    },
+    "EnterpriseType": {
+      "text": "企业性质",
+      "value": 5
+    },
+    "Junk": {
+      "text": "废旧物品",
+      "value": 6
+    },
+    "WorldPort": {
+      "text": "世界海运贸易港口",
+      "value": 7
+    },
+    "DomesticPorts": {
+      "text": "国内口岸",
+      "value": 8
+    },
+    "ChineseDistrict": {
+      "text": "中国行政区",
+      "value": 9
+    },
+    "ImplementInspect": {
+      "text": "施检机构",
+      "value": 10
+    },
+    "Country": {
+      "text": "国家地区",
+      "value": 11
+    },
+    "PackageUnit": {
+      "text": "包装单位",
+      "value": 12
+    },
+    "PackageType": {
+      "text": "包装类型",
+      "value": 13
+    },
+    "Purpose": {
+      "text": "用途",
+      "value": 14
+    },
+    "TransportTool": {
+      "text": "运输工具",
+      "value": 15
+    },
+    "Currency": {
+      "text": "币种",
+      "value": 16
+    },
+    "HS_Code": {
+      "text": "HS编码",
+      "value": 17
+    },
+    "InspectionCategory": {
+      "text": "报检类别",
+      "value": 21
+    },
+    "TradeMode": {
+      "text": "贸易方式",
+      "value": 23
+    },
+    "TransportMode": {
+      "text": "运输方式",
+      "value": 24
+    }
+  },
+  "RechargePayStatus": {
+    "WaitPay": {
+      "text": "待支付",
+      "value": 0
+    },
+    "Succeed": {
+      "text": "支付成功",
+      "value": 1
+    },
+    "Fail": {
+      "text": "支付失败",
+      "value": 2
+    }
+  },
+  "RechargeType": {
+    "Platform": {
+      "text": "平台",
+      "value": 0
+    },
+    "Alipay": {
+      "text": "支付宝",
+      "value": 1
+    },
+    "WeChat": {
+      "text": "微信",
+      "value": 2
+    }
+  },
+  "WithdrawTradeStatus": {
+    "WaitAudit": {
+      "text": "待审核",
+      "value": 0
+    },
+    "Succeed": {
+      "text": "成功",
+      "value": 1
+    },
+    "Fail": {
+      "text": "失败",
+      "value": 2
+    }
+  },
+  "FunctionType": {
+    "Function": {
+      "text": "Function",
+      "value": 0
+    },
+    "Page": {
+      "text": "Page",
+      "value": 1
+    },
+    "Module": {
+      "text": "Module",
+      "value": 2
+    }
+  },
+  "IdCardIdentifyStatus": {
+    "Valid": {
+      "text": "已认证",
+      "value": 0
+    },
+    "InValid": {
+      "text": "认证失败",
+      "value": 1
+    }
+  },
+  "MessageRemindStatus": {
+    "Unread": {
+      "text": "未读",
+      "value": 0
+    },
+    "Read": {
+      "text": "已读",
+      "value": 1
+    }
+  },
+  "MessageRemindType": {
+    "MerchantRecordInfo": {
+      "text": "商户主体备案",
+      "value": 0
+    },
+    "DeclareNotify": {
+      "text": "申报状态",
+      "value": 1
+    }
+  },
+  "RoleType": {
+    "Default": {
+      "text": "普通角色",
+      "value": 0
+    },
+    "System": {
+      "text": "系统角色",
+      "value": 1
+    }
+  },
+  "UserStatus": {
+    "Enabled": {
+      "text": "启用",
+      "value": 0
+    },
+    "Disabled": {
+      "text": "禁用",
+      "value": 1
+    }
+  },
+  "UserType": {
+    "System": {
+      "text": "系统",
+      "value": 0
+    },
+    "Staff": {
+      "text": "员工",
+      "value": 1
+    }
+  }
+}
